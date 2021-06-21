@@ -26,7 +26,7 @@ public class Income {
 	}
 
 	public double getTotalTax() {
-		return totalTax;
+		return (tax/100)*amount;
 	}
 	
 }
